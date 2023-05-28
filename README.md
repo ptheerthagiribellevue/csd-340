@@ -1,2 +1,4 @@
-# csd-340
-Assignments for - CSD340-307J Web Development with HTML and (2237-DD)
+# CSD 340 Web Development with HTML and CSS
+## Contributors
+* Tracy Shelanskey
+* Praveen Theerthagiri
