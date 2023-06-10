@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+#image-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 10%;
+    outline: 2px solid red; /* Add an outline to the grid container */
+    padding: 10px;
+    position: relative; /* Add position relative to the grid container */
+  }
+  
+  #image-gallery::before,
+  #image-gallery::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: red;
+  }
+  
+  #image-gallery::before {
+    left: calc(33.33% - 0.5px); /* Position the left line */
+  }
+  
+  #image-gallery::after {
+    right: calc(33.33% - 0.5px); /* Position the right line */
+  }
+  
+  #image-gallery > div {
+    padding: 10px;
+  }
+  /* Font Family */
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgba(255, 0, 0, 1); /* Optional: Change the color */
+    font-family: 'Montserrat', sans-serif;
+    font-size: xx-large;
+    font-weight: 500;
+  }
+  
+  h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: rgba(255, 0, 0, 1); /* Optional: Change the color */
+  }
+  
+  figure {
+    text-align: center;
+  }
+
+  figcaption {
+    font-style: italic;
+    font-size: 1.0em;
+    color: rgba(255, 0, 0, 1); /* Optional: Change the color */
+  }
+  
