@@ -1,0 +1,62 @@
+<!-- Praveen Theerthagiri : Assignment 9.3 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" conetnt="CSD 340 Development with HTML and CSS">
+    <meta name="author" content="Praveen Theerthagiri">
+    <meta name="keywords" content="HTML, CSS, web development">
+    <link rel="stylesheet" href="Theerthagiri_Mod9_3.css">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+</head>
+
+<body>
+    <div id="container">
+    <h1>Assignment 9.3: JavaScript - Part 1</h1>
+    <h2>Story: </h2>
+
+    <p>
+        Once upon a time in a magical forest, there lived a mischievous squirrel named Sammy. Sammy had bright, shiny fur and a long bushy tail. He loved playing pranks on his forest friends and making them laugh. One sunny morning, Sammy woke up with an idea for his biggest prank yet. He decided to gather all the acorns in the forest and hide them in different places. The animals would have to find their own acorns, and Sammy couldn't wait to see their puzzled faces!
+    </p>
+    
+    <p>
+        As Sammy scampered through the forest, he saw his friend Benny the Bunny hopping by. Benny was known for his love of carrots and his super-fast hops. Sammy whispered his plan to Benny, and they both giggled mischievously. Together, they started collecting acorns and placing them in secret spots. They hid them under leaves, inside tree hollows, and even buried a few in the ground. The forest was turning into a giant acorn treasure hunt!
+    </p>
+    
+    <p>
+        The next day, all the animals in the forest woke up to find their precious acorns missing. There was confusion and worry among the forest creatures. "Where could they have gone?" wondered Mia the Mouse, who relied on acorns for her winter stash. Oliver the Owl, the wisest bird in the forest, gathered all the animals and suggested they search for their missing acorns together.
+    </p>
+    
+    <p>
+        As the animals explored the forest, they discovered acorns hidden in the most unexpected places. They laughed and cheered with each discovery. Even though Sammy's prank caused some initial confusion, it brought the forest community closer together. They learned the importance of teamwork and friendship. When they finally found all the hidden acorns, Sammy and Benny confessed to their prank, and the forest friends couldn't help but chuckle at their cleverness.
+    </p>
+    
+    <p>
+        From that day on, Sammy realized that making others smile and laugh was much more rewarding than playing tricks. He became known as the Forest Jester and used his mischievous nature to spread joy throughout the magical forest. The animals learned to enjoy Sammy's playful antics, and he always made sure to keep their acorns safe. And so, with laughter and friendship, the forest continued to thrive, creating beautiful memories that would be cherished for years to come.
+    </p>
+
+    <hr>
+    <p>
+        <span id="line1">_______</span>
+        <button onclick="replaceText('line1')">Replace Line 1</button>
+        <br>
+        <span id="line2">_______</span>
+        <button onclick="replaceText('line2')">Replace Line 2</button>
+        <br>
+        <span id="line3">_______</span>
+        <button onclick="replaceText('line3')">Replace Line 3</button>
+        <br>
+        <span id="line4">_______</span>
+        <button onclick="replaceText('line4')">Replace Line 4</button>
+    </p>
+</div>
+<script>
+    function replaceText(elementId) {
+      var newText = prompt("Enter the new text:");
+      document.getElementById(elementId).innerHTML = newText;
+    }
+  </script>
+</body>
+
+</html>
