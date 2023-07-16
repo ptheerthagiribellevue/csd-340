@@ -1,0 +1,37 @@
+<!-- Praveen Theerthagiri : Assignment 11.2 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="Theerthagiri_Mod11_2.css">
+    <script src="Theerthagiri_Mod11_2.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Assignment 11.2: JavaScript - Part 3</h1>
+    </header>
+        <br>
+        <p>This is an interactive To Do List. Type in your first item in the text box, then click Add. Click the Display button to see the current items in the list. Click on Delete Last Entry if you'd like to remove the last entry.</p>
+        <br>
+        <div class="container">
+            <input type="text" id="entryInput" class="textbox">
+            <button onclick="addEntry()" class="button">Add</button>
+            <button onclick="deleteEntry()" class="button">Delete Last Entry</button>
+            <button onclick="displayEntries()" class="button">Display</button>
+        </div>
+    
+        <hr>
+    
+        <div class="display-area" id="displayArea"></div>       
+    <footer>
+      <p>&copy; 2023 Praveen Theerthagiri</p>
+      <div class="footer-links">
+          <a href="https://ptheerthagiribellevue.github.io/csd-340/">Back to Landing Page</a>
+      </div>
+  </footer>
+  
+</body>
+
+</html>
